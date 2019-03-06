@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>FCC Survey Form</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <!DOCTYPE html>
+<html>
+  <body>
+     <h1 id="title">Survey Form</h1>
+    <div id="main">
+     
+      <p id="description">What do want to get from a mobile provider?</p>
+      <form id="survey-form">
+        <label for="text" id="name-label">Name: </label>
+        <input type="text" required id="name" placeholder="Please enter your name"><br>
+        <br>
+        <label for="email" id="email-label">Email: </label>
+        <input type="email" required id="email" placeholder="Please enter your email"><br>
+        <br>
+        <label for="number" id="number-label">Your age: </label>
+        <input type="number" required id="number" min="18" max="99" placeholder="Age"><br>
+        <br>
+        <label for="provider">Current provider: </label>
+        <select name="provider" id="dropdown">
+          <option value="Please select">Please select</option>
+          <option value="YouSee">YouSee</option>
+          <option value="Telmore">Telmore</option>
+          <option value="Oyster">Oyster</option>
+        </select><br>
+        <br>
+        <label for="gender">Please select gender: </label><br>
+        <input type="radio" name="gender" value="Male">Male<br>
+        <input type="radio" name="gender" value="Female">Female<br>
+        <input type="radio" name="gender" value="Other">Other<br>
+        <br>
+        <label>What is most important for you in a provider?</label><br>
+        <input type="checkbox" value="price" name="important">Price<br>
+        <input type="checkbox" value="data" name="important">Unlimited data<br>
+        <input type="checkbox" value="price" name="important">Extra services (streaming etc.)<br>
+        <input type="checkbox" value="price" name="important">Coverage<br>
+        <br>
+        <label>Any other demands for a provider:</label><br>
+        <textarea cols="50" rows="10" placeholder="Enter your comment here..."></textarea><br>
+        <br>
+        <input type="submit" id="submit">
+      </form>
+    </div>
+
+  </body>
+</html>
+  
+  
+
+</body>
+
+</html>
